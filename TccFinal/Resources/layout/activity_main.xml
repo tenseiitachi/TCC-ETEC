@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#99f3bd">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dp"
+            android:src="@drawable/login2"/>
+        <TextView
+            android:text="Usuário"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/background_dark"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUsuario"
+            android:background="@android:color/background_light"
+            android:inputType="text" />
+        <TextView
+            android:text="Senha"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSenha"
+            android:background="@android:color/background_light"
+            android:layout_marginBottom="15.0dp"
+            android:inputType="textPassword" />
+        <Button
+            android:text="Entrar"
+            android:layout_gravity="center"
+            android:layout_width="250.0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogin" />
+        <Button
+            android:text="Registrar"
+            android:layout_gravity="center"
+            android:layout_width="250.0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnRegistrar"/>
+    </LinearLayout>
+</RelativeLayout>
