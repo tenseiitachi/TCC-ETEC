@@ -23,5 +23,16 @@ namespace TccFinal.Resources.Model
         public string Usuario { get; set; }
         [MaxLength(15)]
         public string Senha { get; set; }
+
+        public string Email { get; set; }
+
+        public string Pergunta { get; set; }
+
+        public string Resposta { get; set; }
+
+      
+
+
+
     }
 }

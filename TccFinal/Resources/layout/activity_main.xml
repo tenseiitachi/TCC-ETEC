@@ -60,5 +60,11 @@
             android:layout_width="250.0dp"
             android:layout_height="50dp"
             android:id="@+id/btnRegistrar"/>
+        <Button
+            android:text="Recuperar Senha"
+           android:layout_gravity="center"
+            android:layout_width="250.0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnRecuperar" />
     </LinearLayout>
 </RelativeLayout>
