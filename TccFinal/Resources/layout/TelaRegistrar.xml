@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/linearLayout1"
-        android:background="#99f3bd">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#99f3bd"
+    android:gravity="center"
+    android:foregroundGravity="center"
+    android:textAlignment="center">
 
     <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="match_parent"
-            android:layout_height="90.0dp"
-            android:src="@drawable/login2"/>
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="90.0dp"
+        android:src="@drawable/login2"/>
     <TextView
         android:text="Nome de Usuário"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1"
-            android:textColor="@android:color/background_dark"
-            android:layout_gravity="center"
-            android:textAlignment="center"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
     <EditText
         android:background="@android:color/background_light"
         android:layout_width="match_parent"
@@ -29,26 +34,68 @@
         android:id="@+id/txtNovoUsuario"
         android:inputType="text"/>
     <TextView
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:foregroundGravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+    <EditText
+         android:background="@android:color/background_light"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail" />
+    <TextView
         android:text="Senha"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:textColor="@android:color/background_dark"
-            android:textAlignment="center"/>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"/>
     <EditText
         android:background="@android:color/background_light"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtNovaSenha"
         android:inputType="text"/>
+    <TextView
+        android:text="Pergunta de recuperação"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="@android:color/background_dark"
+        android:textAlignment="center"/>
+    <EditText
+         android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPergunta" />
+    <TextView
+        android:text="Resposta"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+         android:textColor="@android:color/background_dark"
+        android:textAlignment="center"/>
+    <EditText
+         android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResposta"
+        />
+      
     <Button
         android:text="Cadastrar"
         android:id="@+id/btnCadastrar"
         android:layout_gravity="center"
         android:layout_width="250.0dp"
         android:layout_height="50dp"/>
-    <Button   
+    <Button
         android:text="voltar"
         android:layout_gravity="center"
         android:layout_width="250.0dp"

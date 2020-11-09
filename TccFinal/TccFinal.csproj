@@ -65,6 +65,7 @@
     <Compile Include="Activitys\ActivityNormal.cs" />
     <Compile Include="Activitys\ActivityObesidade.cs" />
     <Compile Include="Activitys\ActivityObesidadeGrave.cs" />
+    <Compile Include="Activitys\ActivityRecuperar.cs" />
     <Compile Include="Activitys\ActivitySobrepeso.cs" />
     <Compile Include="Activitys\Alimentacao\ActivityAlimentacaoMagreza.cs" />
     <Compile Include="Activitys\Alimentacao\ActivityAlimentacaoNormal.cs" />
@@ -72,11 +73,9 @@
     <Compile Include="Activitys\Alimentacao\ActivityAlimentacaoObesidadeGrave.cs" />
     <Compile Include="Activitys\Alimentacao\ActivityAlimentacaoSobrepeso.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityExercicios.cs" />
-    <Compile Include="Activitys\DefinicaoExercicios\ActivityExerciciosVazio.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityGanhoDeMassa.cs" />
     <Compile Include="Activitys\CalculoImc.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityPerdaDeMassa.cs" />
-    <Compile Include="Activitys\DefinicaoExercicios\ClasseExercicios.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\FragmentExercicios.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\TitlesFragment.cs" />
     <Compile Include="Activitys\MainActivity.cs" />
@@ -177,6 +176,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\login3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TelaRecuperar.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -19,7 +19,11 @@ namespace TccFinal.Activitys
     {
         EditText txtNovoUsuario;
         EditText txtSenhaNovoUsuario;
+        EditText txtEmailNovoUsuario;
+        EditText txtPerguntaNovoUsuario;
+        EditText txtRespostaNovoUsuario;
         Button btnCriarNovoUsuario;
+
          
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,6 +34,9 @@ namespace TccFinal.Activitys
             btnCriarNovoUsuario = FindViewById<Button>(Resource.Id.btnCadastrar);
             txtNovoUsuario = FindViewById<EditText>(Resource.Id.txtNovoUsuario);
             txtSenhaNovoUsuario = FindViewById<EditText>(Resource.Id.txtNovaSenha);
+            txtEmailNovoUsuario = FindViewById<EditText>(Resource.Id.txtEmail);
+            txtPerguntaNovoUsuario = FindViewById<EditText>(Resource.Id.txtPergunta);
+            txtRespostaNovoUsuario = FindViewById<EditText>(Resource.Id.txtResposta);
 
             btnCriarNovoUsuario.Click += BtnCriarNovoUsuario_Click; 
         }
@@ -49,9 +56,12 @@ namespace TccFinal.Activitys
                 //cria uma instancia de login
                 Login tblogin = new Login();
 
-                //atribui nome e senha informados
+                //atribui nome, email e senha informados
                 tblogin.Usuario = txtNovoUsuario.Text;
                 tblogin.Senha = txtSenhaNovoUsuario.Text;
+                tblogin.Email = txtEmailNovoUsuario.Text;
+                tblogin.Pergunta = txtPerguntaNovoUsuario.Text;
+                tblogin.Resposta = txtRespostaNovoUsuario.Text;
 
                 //inclui na tabela
                 db.Insert(tblogin);
