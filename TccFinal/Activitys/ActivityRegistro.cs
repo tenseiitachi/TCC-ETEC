@@ -15,7 +15,7 @@ using TccFinal.Resources.Model;
 namespace TccFinal.Activitys
 {
     [Activity(Label = "Registro")]
-    public class Registro : Activity
+    public class ActivityRegistro : Activity
     {
         EditText txtNovoUsuario;
         EditText txtSenhaNovoUsuario;

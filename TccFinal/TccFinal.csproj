@@ -74,12 +74,13 @@
     <Compile Include="Activitys\Alimentacao\ActivityAlimentacaoSobrepeso.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityExercicios.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityGanhoDeMassa.cs" />
-    <Compile Include="Activitys\CalculoImc.cs" />
+    <Compile Include="Activitys\ActivityCalculoImc.cs" />
     <Compile Include="Activitys\DefinicaoExercicios\ActivityPerdaDeMassa.cs" />
-    <Compile Include="Activitys\DefinicaoExercicios\FragmentExercicios.cs" />
-    <Compile Include="Activitys\DefinicaoExercicios\TitlesFragment.cs" />
+    <Compile Include="Activitys\ActivityDiarioDeExercicios.cs" />
+    <Compile Include="Activitys\DefinicaoExercicios\ActivityVizualizarAtividades.cs" />
     <Compile Include="Activitys\MainActivity.cs" />
-    <Compile Include="Activitys\Registro.cs" />
+    <Compile Include="Activitys\Model\DiarioExercicio.cs" />
+    <Compile Include="Activitys\ActivityRegistro.cs" />
     <Compile Include="Activitys\Model\Login.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -179,6 +180,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\TelaRecuperar.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TelaDiarioDeExercicios.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
