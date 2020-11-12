@@ -3,15 +3,20 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using SQLite;
+using TccFinal.Resources.Model;
 
 namespace TccFinal.Activitys
 {
     [Activity(Label = "CalculoImc")]
-    public class CalculoImc : Activity
+    public class ActivityCalculoImc : Activity
     {
         EditText edtCalcAltura;
         EditText edtCalcPeso;
         Button BtnCalcular;
+        Button btnRegistrarAtividades;
+        Button btnVisualizarAtividades;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -23,26 +28,41 @@ namespace TccFinal.Activitys
             edtCalcAltura = FindViewById<EditText>(Resource.Id.edtCalcAltura);
             edtCalcPeso = FindViewById<EditText>(Resource.Id.edtCalcPeso);
             BtnCalcular = FindViewById<Button>(Resource.Id.btnCalcular);
-
+            btnRegistrarAtividades = FindViewById<Button>(Resource.Id.btnRegistrarAtividades);
+            btnVisualizarAtividades = FindViewById<Button>(Resource.Id.btnVisualizarAtividades);
 
             BtnCalcular.Click += BtnCalcular_Click;
 
+            btnRegistrarAtividades.Click += BtnRegistrarAtividades_Click;
 
-
-
+            btnVisualizarAtividades.Click += BtnVisualizarAtividades_Click;
 
 
 
         }
 
+        private void BtnVisualizarAtividades_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnRegistrarAtividades_Click(object sender, EventArgs e)
+        {
+
+            var DiarioDeExercicios = new Intent(this, typeof(ActivityDiarioDeExercicios));
+            StartActivity(DiarioDeExercicios);
+
+        }
 
         void BtnCalcular_Click(object sender, EventArgs e)
         {
-           
+
+
+          
             double altura = double.Parse(edtCalcAltura.Text);
            
             double peso = double.Parse(edtCalcPeso.Text);
-            double Resultado = peso / (altura * altura);
+            double Resultado =(altura * altura)/ peso;
 
 
 

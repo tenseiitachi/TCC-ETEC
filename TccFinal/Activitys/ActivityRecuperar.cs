@@ -59,7 +59,7 @@ namespace TccFinal.Activitys
                 {
                     Toast.MakeText(this, "Login realizado com sucesso", ToastLength.Short).Show();
 
-                    var atividade2 = new Intent(this, typeof(CalculoImc));
+                    var atividade2 = new Intent(this, typeof(ActivityCalculoImc));
 
                     //pega os dados digitados em txtLogin
                     atividade2.PutExtra("nome", FindViewById<EditText>(Resource.Id.txtUsuario).Text);

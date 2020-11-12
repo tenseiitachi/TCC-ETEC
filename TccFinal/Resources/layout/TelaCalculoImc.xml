@@ -21,7 +21,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtCalcAltura" />
+        android:id="@+id/edtCalcAltura"
+        android:inputType="none|numberDecimal" />
     <TextView
         android:text="Peso"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -31,11 +32,22 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtCalcPeso" />
+        android:id="@+id/edtCalcPeso"
+        android:inputType="none|numberDecimal" />
     <Button
         android:text="Calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCalcular" />
+    <Button
+        android:text="Visualizar atividades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVisualizarAtividades" />
+    <Button
+        android:text="Registrar atividades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistrarAtividades" />
 
 </LinearLayout>
