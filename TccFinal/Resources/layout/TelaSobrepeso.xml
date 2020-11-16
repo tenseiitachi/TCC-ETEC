@@ -1,10 +1,18 @@
-
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:p1="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1"
+    android:background="#ffdc6b07">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
     <TextView
         android:text="Sua situação é de sobrepeso!"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -25,7 +33,7 @@
     <ImageButton
         android:src="@drawable/alimen"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="250dp"
         android:id="@+id/imageButton1" />
     <TextView
         android:text="Passo 2: Perda de massa."
@@ -36,7 +44,7 @@
     <ImageButton
         android:src="@drawable/perda"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="250dp"
         android:id="@+id/imageButton2" />
     <TextView
         android:text="Passo 3: Definição"
@@ -47,8 +55,7 @@
     <ImageButton
         android:src="@drawable/ganho"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="250dp"
         android:id="@+id/imageButton3" />
-
-
 </LinearLayout>
+</ScrollView>

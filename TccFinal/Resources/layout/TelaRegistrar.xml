@@ -12,7 +12,6 @@
     android:gravity="center"
     android:foregroundGravity="center"
     android:textAlignment="center">
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"

@@ -26,9 +26,9 @@
         android:id="@+id/textView3"
         android:textColor="@android:color/background_dark" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/alimen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:id="@+id/imgAlimentacao" />
     <TextView
         android:text="Passo 2: Exercícios"
@@ -38,7 +38,7 @@
         android:id="@+id/textView4"
         android:textColor="@android:color/background_dark" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/ganho"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imgExercicios" />
