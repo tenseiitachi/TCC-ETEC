@@ -42,12 +42,12 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
-		android:src="@android:drawable/ic_menu_gallery"
+		android:src="@drawable/alimen"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="100dp"
 		android:id="@+id/imgAlimentacao" />
 	<TextView
-		android:text="Passo 2: perca de massa."
+		android:text="Passo 2: Perca de massa."
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -55,9 +55,9 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
-		android:src="@android:drawable/ic_menu_gallery"
+		android:src="@drawable/perda"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="100dp"
 		android:id="@+id/imgGanhoDeMassa" />
 	<TextView
 		android:text="Passo 3: Definição."
@@ -68,9 +68,9 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
-		android:src="@android:drawable/ic_menu_gallery"
+		android:src="@drawable/ganho"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="100dp"
 		android:id="@id/imgExercicios" />
 
 </LinearLayout>
