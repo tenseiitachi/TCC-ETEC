@@ -42,7 +42,7 @@ O consumo de proteínas, carnes magras e leguminosas também é importante, por�
             android:textStyle="bold"
             android:layout_marginTop="0.0dp" />
         <ImageButton
-             android:src="@android:drawable/ic_menu_gallery"
+            android:src="@android:drawable/alimen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imgAlimentacao" />
