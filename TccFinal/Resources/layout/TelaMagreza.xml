@@ -42,9 +42,9 @@ O consumo de proteínas, carnes magras e leguminosas também é importante, por�
             android:textStyle="bold"
             android:layout_marginTop="0.0dp" />
         <ImageButton
-             android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/alimen"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:id="@+id/imgAlimentacao" />
         <TextView
             android:text="Passo 2: Ganho de massa."
@@ -55,9 +55,9 @@ O consumo de proteínas, carnes magras e leguminosas também é importante, por�
             android:textColor="@android:color/background_dark"
             android:textStyle="bold" />
         <ImageButton
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/perda"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:id="@+id/imgGanhoDeMassa" />
         <TextView
             android:text="Passo 3: Definição."
@@ -68,9 +68,9 @@ O consumo de proteínas, carnes magras e leguminosas também é importante, por�
             android:textColor="@android:color/background_dark"
             android:textStyle="bold" />
         <ImageButton
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/ganho"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:id="@+id/imgExercicios" />
     </LinearLayout>
 </ScrollView>

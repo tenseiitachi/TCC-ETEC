@@ -23,9 +23,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView3" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/alimen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:id="@+id/imageButton1" />
     <TextView
         android:text="Passo 2: Perda de massa."
@@ -34,9 +34,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView4" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/perda"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:id="@+id/imageButton2" />
     <TextView
         android:text="Passo 3: Definição"
@@ -45,9 +45,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView5" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/ganho"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:id="@+id/imageButton3" />
 
 

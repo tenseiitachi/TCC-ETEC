@@ -23,9 +23,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView3" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/alimen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:id="@+id/imageButton1" />
     <TextView
         android:text="Passo 2: Perda de peso."
