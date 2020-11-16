@@ -41,6 +41,7 @@
         android:id="@+id/textView3"
         android:foregroundGravity="center"
         android:textAlignment="center"
+        android:inputType="textEmailAddress"
         android:textColor="@android:color/background_dark" />
     <EditText
          android:background="@android:color/background_light"
@@ -61,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtNovaSenha"
-        android:inputType="text"/>
+        android:inputType="textPassword"/>
     <TextView
         android:text="Pergunta de recuperação"
         android:textAppearance="?android:attr/textAppearanceMedium"
