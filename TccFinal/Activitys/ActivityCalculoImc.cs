@@ -62,7 +62,7 @@ namespace TccFinal.Activitys
             double altura = double.Parse(edtCalcAltura.Text);
            
             double peso = double.Parse(edtCalcPeso.Text);
-            double Resultado = peso / altura * altura;
+            double Resultado = peso / Math.Pow(altura,2);
 
 
             if (Resultado <= 18.5)
