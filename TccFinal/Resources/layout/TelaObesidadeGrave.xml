@@ -20,18 +20,21 @@
             android:layout_height="wrap_content"
             android:minWidth="25px"
             android:minHeight="25px"
-            android:id="@+id/textView1" />
+            android:id="@+id/textView1"
+            android:textColor="@android:color/background_dark" />
         <TextView
             android:text="O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre o controle do consumo de calorias, calculado de acordo com a alimentação habitual e com a quantidade de peso que se deseja perder, de preferência com uma dieta rica em frutas, legumes, verduras, fibras e água, conforme orientada pelo nutricionista."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textColor="@android:color/background_dark" />
         <TextView
             android:text="Passo 1: Alimentação."
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:textColor="@android:color/background_dark" />
         <ImageButton
             android:src="@drawable/alimen"
             android:layout_width="match_parent"
@@ -42,7 +45,8 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textColor="@android:color/background_dark" />
         <ImageButton
             android:src="@drawable/perda"
             android:layout_width="match_parent"
@@ -53,11 +57,12 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5" />
+            android:id="@+id/textView5"
+            android:textColor="@android:color/background_dark"/>
         <ImageButton
             android:src="@drawable/ganho"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:id="@+id/imageButton3" />
+            android:id="@+id/imageButton3"/>
     </LinearLayout>    
 </ScrollView>
