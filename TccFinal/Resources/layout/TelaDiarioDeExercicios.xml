@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff99f3bd" >
+    android:background="#ff99f3bd">
+    <TextView
+        android:text="Usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/background_dark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/txtUsuario"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light"/>
     <TextView
         android:text="Descrição do exercício"
         android:textAppearance="?android:attr/textAppearanceMedium"

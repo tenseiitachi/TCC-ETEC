@@ -7,12 +7,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/scrollView1"
-    android:background="#ffdc6b07">
+   >
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/background_light">
+        android:background="#ff99f3bd">
         <TextView
             p1:text="Sua situação é de magreza!"
             p1:textAppearance="?android:attr/textAppearanceMedium"

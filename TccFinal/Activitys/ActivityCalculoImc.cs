@@ -3,6 +3,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using TccFinal.Activitys.DefinicaoExercicios;
 using SQLite;
 using TccFinal.Resources.Model;
 
@@ -43,7 +44,8 @@ namespace TccFinal.Activitys
 
         private void BtnVisualizarAtividades_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var ExibirRegistros = new Intent(this, typeof(ActivityVizualizarAtividades));
+            StartActivity(ExibirRegistros);
         }
 
         private void BtnRegistrarAtividades_Click(object sender, EventArgs e)
@@ -62,7 +64,8 @@ namespace TccFinal.Activitys
             double altura = double.Parse(edtCalcAltura.Text);
            
             double peso = double.Parse(edtCalcPeso.Text);
-            double Resultado =(altura * altura)/ peso;
+            double AlturaElevada = Math.Pow(altura, 2);
+            double Resultado = peso / AlturaElevada ;
 
 
 
