@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/linearLayout1"
-        android:background="#99f3bd">
+        android:background="#FF4BEBDB">
 
         <ImageView
             android:id="@+id/imageView1"

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff99f3bd">
+    android:background="#ff4bebdb">
     <TextView
         android:text="Sua situação é de Obesdidade grave!"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -24,9 +25,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView3" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/ali"
+        android:layout_height="85.0dp"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/imageButton1" />
     <TextView
         android:text="Passo 2: Perda de peso."
@@ -35,9 +37,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView4" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/perd"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="98.5dp"
+        android:scaleType="centerCrop"
         android:id="@+id/imageButton2" />
     <TextView
         android:text="Passo 3: Definição."
@@ -46,9 +49,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView5" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/exe"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="96.0dp"
+        android:scaleType="centerCrop"
         android:id="@+id/imageButton3" />
 
 </LinearLayout>

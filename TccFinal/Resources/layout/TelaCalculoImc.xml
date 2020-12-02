@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtCalcAltura"
-        android:inputType="none|numberDecimal" />
+        android:inputType="numberDecimal" />
     <TextView
         android:text="Peso"
         android:textAppearance="?android:attr/textAppearanceMedium"

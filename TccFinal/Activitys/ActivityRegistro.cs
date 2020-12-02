@@ -44,28 +44,61 @@ namespace TccFinal.Activitys
         private void BtnCriarNovoUsuario_Click(object sender, System.EventArgs e)
         {
             try
-            {
-                //definindo caminho do banco de dados
-                string dbPath = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Usuario.db"); // Cria o Banco de Dados
-                //abre o banco se não existir
-                var db = new SQLiteConnection(dbPath);
+            {              
+                
+                    //definindo caminho do banco de dados
+                    string dbPath = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Usuario.db"); // Cria o Banco de Dados
+                                                                                                                                                       //abre o banco se não existir
+                    var db = new SQLiteConnection(dbPath);
 
-                //executa um 'create table if not exists' no banco de dados
-                db.CreateTable<Login>();
+                    //executa um 'create table if not exists' no banco de dados
+                    db.CreateTable<Login>();
 
-                //cria uma instancia de login
-                Login tblogin = new Login();
+                    //cria uma instancia de login
+                    Login tblogin = new Login();
 
+                if (txtNovoUsuario.Text == null)
+                {
+                    Toast.MakeText(this, "Todos os campos devem ser preenchidos", ToastLength.Short).Show();
+                }
+
+                if (txtSenhaNovoUsuario.Text == null)
+                {
+                    Toast.MakeText(this, "Todos os campos devem ser preenchidos", ToastLength.Short).Show();
+                }
+
+                if (txtEmailNovoUsuario.Text == null)
+                {
+                    Toast.MakeText(this, "Todos os campos devem ser preenchidos", ToastLength.Short).Show();
+                }
+
+                if (txtPerguntaNovoUsuario.Text == null)
+                {
+                    Toast.MakeText(this, "Todos os campos devem ser preenchidos", ToastLength.Short).Show();
+                }
+
+                if (txtRespostaNovoUsuario.Text == null)
+                {
+                    Toast.MakeText(this, "Todos os campos devem ser preenchidos", ToastLength.Short).Show();
+                    
+                }
+
+                else { 
                 //atribui nome, email e senha informados
                 tblogin.Usuario = txtNovoUsuario.Text;
-                tblogin.Senha = txtSenhaNovoUsuario.Text;
-                tblogin.Email = txtEmailNovoUsuario.Text;
-                tblogin.Pergunta = txtPerguntaNovoUsuario.Text;
-                tblogin.Resposta = txtRespostaNovoUsuario.Text;
+                    tblogin.Senha = txtSenhaNovoUsuario.Text;
+                    tblogin.Email = txtEmailNovoUsuario.Text;
+                    tblogin.Pergunta = txtPerguntaNovoUsuario.Text;
+                    tblogin.Resposta = txtRespostaNovoUsuario.Text;
 
-                //inclui na tabela
-                db.Insert(tblogin);
-                Toast.MakeText(this, "Cadastro feito com sucesso!!", ToastLength.Short).Show();
+
+              
+                    //inclui na tabela
+                    db.Insert(tblogin);
+                    Toast.MakeText(this, "Cadastro feito com sucesso!!", ToastLength.Short).Show();
+
+
+                }
             }
             catch (Exception ex)
             {

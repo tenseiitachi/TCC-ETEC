@@ -15,7 +15,7 @@ namespace TccFinal.Activitys.Alimentacao
     [Activity(Label = "ActivityAlimentacaoSobrepeso")]
     public class ActivityAlimentacaoSobrepeso : ListActivity
     {
-        static readonly string[] alimentosSobrePeso = new String[]
+        static readonly string[] alimentosSobrepeso = new String[]
         {   "Peixes e frutos do mar:  inflamação é um dos principais responsáveis pelo ganho de peso. Peixes e frutos do mar, por serem ricos em ômega 3, um ácido graxo essencial, ajudam a desinflamar as células de gordura, atuando no controle do problema e ajudando a perder barriga. Além disso, esses alimentos também aceleram a transformação da glicose em energia, impedindo que ela seja estocada sob a forma de gordura. A inclusão desses alimentos no cardápio pode ser feita pelo menos três vezes por semana.",
             " Óleo de cártamo e outros óleos funcionais: Os óleos funcionais atuam no metabolismo das gorduras, aumentando a quebra da dos ácidos graxos para produção de energia e, consequentemente, diminuindo as reservas de gordura. O óleo de cártamo e o óleo de coco agem também na aceleração do metabolismo.",
             "Iogurtes com probióticos: Alguns lactobacilos produzem um tipo de gordura, o CLA (ácido linoléico conjugado), que é capaz de reduzir o porcentual de gordura. Além disso, esse tipo de alimento tem como função básica equilibrar a flora intestinal. Um estudo publicado em 2006 pela revista científica Nature mostrou que as bactérias presentes na flora intestinal de pessoas com obesidade são muito diferentes das de pessoas com peso adequado. A descoberta sugere que a absorção inadequada de gorduras no intestino, que ocorre nas pessoas com flora comprometida, pode estar relacionada ao ganho de peso.",
@@ -32,7 +32,7 @@ namespace TccFinal.Activitys.Alimentacao
         {
             base.OnCreate(bundle);
 
-            ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.list_item, alimentosSobrePeso);
+            ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.list_item, alimentosSobrepeso);
 
             ListView.TextFilterEnabled = true;
 

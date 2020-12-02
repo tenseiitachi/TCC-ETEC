@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff99f3bd">
+    android:background="#FF4BEBDB">
 
     <TextView
         android:text="Sua situação é de sobrepeso!"
@@ -24,10 +24,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView3" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/ali"
+         android:layout_height="85.0dp"
+         android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton1" />
+        android:id="@id/imgAlimentacao"
+        android:layout_marginBottom="0.0dp"
+        />
     <TextView
         android:text="Passo 2: Perda de massa."
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -35,10 +38,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView4" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/perd"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton2" />
+        android:layout_height="98.5dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imgPercaDeMassa"
+         />
     <TextView
         android:text="Passo 3: Definição"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -46,10 +51,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView5" />
     <ImageButton
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/exe"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton3" />
+        android:layout_height="96.0dp"
+        android:scaleType="centerCrop"
+        android:id="@id/imgExercicios"
+         />
 
 
 </LinearLayout>
