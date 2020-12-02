@@ -4,6 +4,7 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using TccFinal.Activitys.DefinicaoExercicios;
+using System.Globalization;
 using SQLite;
 using TccFinal.Resources.Model;
 
@@ -61,11 +62,13 @@ namespace TccFinal.Activitys
 
 
           
-            double altura = double.Parse(edtCalcAltura.Text);
+            double altura = double.Parse(edtCalcAltura.Text, CultureInfo.InvariantCulture);
+
+            double Elevada = altura*altura;
            
-            double peso = double.Parse(edtCalcPeso.Text);
-            double AlturaElevada = Math.Pow(altura, 2);
-            double Resultado = peso / AlturaElevada ;
+            double peso = double.Parse(edtCalcPeso.Text, CultureInfo.InvariantCulture);
+           
+            double Resultado = peso /Elevada;
 
 
 

@@ -77,7 +77,7 @@ namespace TccFinal.Activitys
                 //inclui na tabela
                
                 db.Insert(tbdiario);
-                db.Update(tbdiario);
+                //db.Update(tbdiario);
                 Toast.MakeText(this, "Cadastro feito com sucesso!!", ToastLength.Short).Show();
             }
             catch (Exception ex)

@@ -3,11 +3,12 @@ using SQLite;
 
 namespace TccFinal.Resources.Model
 {
-    class DiarioExercicio: Login
+    public class DiarioExercicio
     {
         // Chave primária autoincremental 
         [PrimaryKey, AutoIncrement]
-       
+        public int Id { get; set; }
+
 
         public string Exercicio { get; set; }
 
@@ -17,7 +18,7 @@ namespace TccFinal.Resources.Model
 
         public string Tempo { get; set; }
 
-      
+        public string Usuario { get; set; }
 
         public DiarioExercicio()
         {

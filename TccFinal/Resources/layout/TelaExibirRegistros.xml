@@ -7,14 +7,19 @@
     android:background="#99f3bd"
     android:minWidth="25px"
     android:minHeight="25px">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnDados"
+          android:layout_marginBottom="20dp"/>
     <TextView
         android:text="Usuario"
         android:textAppearance="?android:attr/textAppearanceLarge"
-         android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/background_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView10" 
-     android:layout_gravity="center"
+        android:id="@+id/textView10"
+        android:layout_gravity="center"
         android:textAlignment="center"/>
     <TextView
         android:text=""
@@ -54,7 +59,6 @@
         android:id="@+id/textView5" 
         />
     <TextView
-       
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +85,7 @@
         android:textColor="@android:color/background_dark"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:id="@+id/txtExibirPeso" 
+        android:id="@+id/txtExibirPeso"
         android:layout_marginBottom="20dp"
    />
     <TextView
