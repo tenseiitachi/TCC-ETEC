@@ -26,6 +26,9 @@ namespace TccFinal.Activitys
 
             // Create your application here
             SetContentView(Resource.Layout.TelaObesidade);
+
+
+
             ImgAlimentacao = FindViewById<ImageButton>(Resource.Id.imgAlimentacao);
             ImgExercicios = FindViewById<ImageButton>(Resource.Id.imgExercicios);
             ImgGanhoDeMassa = FindViewById<ImageButton>(Resource.Id.imgGanhoDeMassa);

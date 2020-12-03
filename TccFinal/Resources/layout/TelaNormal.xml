@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FF4BEBDB">
     <TextView
         android:text="Sua situação é Normal."
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -26,9 +27,12 @@
         android:id="@+id/textView3"
         android:textColor="@android:color/background_dark" />
     <ImageButton
-        android:src="@drawable/alimen"
+
+               android:src="@drawable/ali"
+         android:layout_height="85.0dp"
+         android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+
         android:id="@+id/imgAlimentacao" />
     <TextView
         android:text="Passo 2: Exercícios"
@@ -38,9 +42,11 @@
         android:id="@+id/textView4"
         android:textColor="@android:color/background_dark" />
     <ImageButton
-        android:src="@drawable/ganho"
+
+        android:src="@drawable/exe"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="96.0dp"
+        android:scaleType="centerCrop"
         android:id="@+id/imgExercicios" />
 
 </LinearLayout>

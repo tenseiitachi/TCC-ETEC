@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ff99f3bd">
     <TextView
         android:text="Vamos calcular seu IMC!"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -22,8 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtCalcAltura"
-        android:digits="1234567890."
-        android:inputType="none|numberDecimal" />
+
+        android:inputType="numberDecimal" />
+
     <TextView
         android:text="Peso"
         android:textAppearance="?android:attr/textAppearanceMedium"
