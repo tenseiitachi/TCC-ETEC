@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtCalcAltura"
+        android:digits="1234567890."
         android:inputType="none|numberDecimal" />
     <TextView
         android:text="Peso"
@@ -33,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtCalcPeso"
+        android:digits="1234567890."
         android:inputType="none|numberDecimal" />
     <Button
         android:text="Calcular"

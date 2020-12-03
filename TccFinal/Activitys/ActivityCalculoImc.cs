@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -56,10 +57,9 @@ namespace TccFinal.Activitys
 
         void BtnCalcular_Click(object sender, EventArgs e)
         {
-
-
-          
-            double altura = double.Parse(edtCalcAltura.Text);
+ 
+            double altura = 
+            double.Parse(edtCalcAltura.Text, CultureInfo.InvariantCulture);
             double peso = double.Parse(edtCalcPeso.Text);
             double Resultado = peso / Math.Pow(altura,2);
 
@@ -97,12 +97,7 @@ namespace TccFinal.Activitys
                 var obesidadeGraveAtividade = new Intent(this, typeof(ActivityObesidadeGrave));
                 StartActivity(obesidadeGraveAtividade);
             }
-
         }
-
-
-
     }
-
 }
  
