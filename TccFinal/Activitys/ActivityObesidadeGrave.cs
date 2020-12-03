@@ -36,7 +36,9 @@ namespace TccFinal.Activitys
 
             ImgAlimentacao.Click += ImgAlimentacao_Click;
 
+
             ImgPercaDeMassa.Click += ImgPercaDeMassa_Click;
+
 
             ImgExercicios.Click += ImgExercicios_Click;
         }

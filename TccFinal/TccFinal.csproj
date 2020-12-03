@@ -173,12 +173,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login3.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\TelaRecuperar.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -189,6 +183,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+
     <AndroidResource Include="Resources\drawable\perd.jpeg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </AndroidResource>

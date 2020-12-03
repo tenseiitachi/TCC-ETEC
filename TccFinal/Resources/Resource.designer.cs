@@ -3120,7 +3120,9 @@ namespace TccFinal
 			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
+
 			public const int ali = 2131165274;
+
 			
 			// aapt resource value: 0x7F07005B
 			public const int avd_hide_password = 2131165275;
@@ -3147,10 +3149,12 @@ namespace TccFinal
 			public const int design_snackbar_background = 2131165282;
 			
 			// aapt resource value: 0x7F070063
+
 			public const int exe = 2131165283;
 			
 			// aapt resource value: 0x7F070064
 			public const int ganh = 2131165284;
+
 			
 			// aapt resource value: 0x7F070065
 			public const int ic_mtrl_chip_checked_black = 2131165285;
@@ -3162,6 +3166,7 @@ namespace TccFinal
 			public const int ic_mtrl_chip_close_circle = 2131165287;
 			
 			// aapt resource value: 0x7F070068
+
 			public const int login = 2131165288;
 			
 			// aapt resource value: 0x7F070069
@@ -3223,7 +3228,7 @@ namespace TccFinal
 			
 			// aapt resource value: 0x7F07007C
 			public const int tooltip_frame_light = 2131165308;
-			
+
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

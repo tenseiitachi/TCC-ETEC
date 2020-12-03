@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -61,6 +62,7 @@ namespace TccFinal.Activitys
         {
 
 
+
           
             double altura = double.Parse(edtCalcAltura.Text, CultureInfo.InvariantCulture);
 
@@ -69,6 +71,7 @@ namespace TccFinal.Activitys
             double peso = double.Parse(edtCalcPeso.Text, CultureInfo.InvariantCulture);
            
             double Resultado = peso /Elevada;
+
 
 
 
@@ -110,12 +113,7 @@ namespace TccFinal.Activitys
                 var obesidadeGraveAtividade = new Intent(this, typeof(ActivityObesidadeGrave));
                 StartActivity(obesidadeGraveAtividade);
             }
-
         }
-
-
-
     }
-
 }
  

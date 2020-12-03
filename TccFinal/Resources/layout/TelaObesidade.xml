@@ -6,6 +6,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/scrollView1">
+
 <LinearLayout
 	
 	xmlns:android="http://schemas.android.com/apk/res/android"
@@ -14,6 +15,7 @@
 	android:layout_height="match_parent"
 	android:background="#FF4BEBDB">
 	
+
 		<TextView
 			android:text="Sua situação é de Obesidade!"
 			android:textAppearance="?android:attr/textAppearanceMedium"
@@ -42,13 +44,15 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
+
 		        android:src="@drawable/ali"
          android:layout_height="85.0dp"
          android:scaleType="centerCrop"
         android:layout_width="match_parent"
 		android:id="@+id/imgAlimentacao" />
+
 	<TextView
-		android:text="Passo 2: perca de massa."
+		android:text="Passo 2: Perca de massa."
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -56,6 +60,7 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
+
 		android:src="@drawable/perd"
         android:layout_width="match_parent"
         android:layout_height="98.5dp"
@@ -70,10 +75,12 @@ O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre 
 		android:textColor="@android:color/background_dark"
 		android:textStyle="bold" />
 	<ImageButton
+
 		 android:src="@drawable/exe"
         android:layout_width="match_parent"
         android:layout_height="96.0dp"
         android:scaleType="centerCrop"
+
 		android:id="@id/imgExercicios" />
 
 </LinearLayout>

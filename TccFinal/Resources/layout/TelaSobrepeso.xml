@@ -1,29 +1,35 @@
-
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:p1="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF4BEBDB">
+
 
     <TextView
         android:text="Sua situação é de sobrepeso!"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/textView1"
+        android:textColor="@android:color/background_dark" />
     <TextView
         android:text="Sobrepeso indica que a pessoa está acima do peso considerado normal para a idade ou tamanho que ela possui. Essa é uma condição que atinge muitas pessoas, e se não tratada pode levar a obesidade."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:textColor="@android:color/background_dark" />
     <TextView
         android:text="Passo 1: Alimentação."
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
+        android:textColor="@android:color/background_dark" />
     <ImageButton
+
         android:src="@drawable/ali"
          android:layout_height="85.0dp"
          android:scaleType="centerCrop"
@@ -36,8 +42,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4" />
+        android:textColor="@android:color/background_dark" />
     <ImageButton
+
         android:src="@drawable/perd"
         android:layout_width="match_parent"
         android:layout_height="98.5dp"
@@ -49,8 +56,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
+        android:textColor="@android:color/background_dark" />
     <ImageButton
+
         android:src="@drawable/exe"
         android:layout_width="match_parent"
         android:layout_height="96.0dp"
@@ -60,3 +68,4 @@
 
 
 </LinearLayout>
+
